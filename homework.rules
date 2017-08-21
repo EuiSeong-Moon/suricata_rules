@@ -1,0 +1,66 @@
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: hitomi.la"; sid:10001; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: kass.org.kp"; sid:10002; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: kcna.kp"; sid:10003; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /wiki"; content:"Host: kitribob.wiki"; sid:10004; rev:1;)
+
+alert tcp any any -> any 80 (msg:"test rule"; content:"GET /"; content:"Host: www.naver.com"; sid:10005; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: ks8282.com"; sid:10006; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /users/men1212/canvases/19%EA%B8%88%20"; content:"Host: linoit.com"; sid:10007; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: naevr.com"; sid:10008; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /game/ladder/v2_index.php"; content:"Host: named.com"; sid:10009; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: naver6.com"; sid:10010; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: onaratv.com"; sid:10011; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: pornpros.com"; sid:10012; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: rodong.rep.kp"; sid:10013; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /download"; content:"Host: snoopspy.com"; sid:10014; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /streaming/test.mp4"; content:"Host: test.gilgil.net"; sid:10015; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: uriminzokkiri.com"; sid:10016; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.4shared.com"; sid:10017; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.bamwar25.com"; sid:10018; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.faa25.com"; sid:10019; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /libe"; content:"Host: www.liberation.fr"; sid:10020; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.kimmadam.net"; sid:10021; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.minjok.com"; sid:10022; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.narutoxxx.com"; sid:10023; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.naver.cm"; sid:10024; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.ryomyong.com"; sid:10025; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.sedisk.com"; sid:10026; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.sk386.com"; sid:10027; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.tcosc.net"; sid:10028; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.torenzoa.net"; sid:10029; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.umj262.com"; sid:10030; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /"; content:"Host: www.uriminzokkiri.com"; sid:10031; rev:1;)
+
+alert tcp any any -> any 80 (msg:"warning rules"; content:"GET /my/4D.html"; content:"Host: www.winclub88.net"; sid:10032; rev:1;)
+
+alert dns any any -> any 443 (msg:"warning rules"; dns_query; content:"graphgame.net"; nocase; sid:1;)
+
